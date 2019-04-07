@@ -1,6 +1,9 @@
-import rocketpack from '../../rocketpack-javascript/dist/rocketpack'
+import rocketpack from 'rocketpack.io'
 
-rocketpack.init({ key: '74cf14fb-ea6e-45ef-e804-08d6932cb5bb' });
+rocketpack.init({
+  //apiBasePath: 'http://localhost:5000/',
+  key: '4dd5f3dc-8aa2-4da8-1338-08d6a8d6d071'
+});
 var ds = rocketpack.dataService();
 
 export default {
